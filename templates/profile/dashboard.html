@@ -1,0 +1,38 @@
+{% load static %}
+
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8" />
+    
+        <meta name="viewport" content="width-device-width, initial-scale=1, maximum-scale=1"/>
+    
+        <link href="https://bootswatch.com/5/quartz/bootstrap.min.css"  rel="stylesheet" type="text/css"/>
+
+        <link href="{% static 'css/styles.css' %}"  rel="stylesheet" type="text/css"/>
+
+        <title> Taskly - Dashboard </title>
+
+    </head>
+
+    {% include 'profile/base.html' %}
+
+    <br/><br/>
+
+    <div class="container shadow-md p-5 form-layout" >
+
+        <h2 style="font-size: 40px;";>TASKLY !</h2>
+        <hr/>
+
+        <p style="font-size: 30px;">Welcome to TASKLY</p>
+        <br/>
+
+        <p style="font-size: 20px;">Your Personal Task Management System</p>
+
+    </div>
+
+    <br/>
+
+</html>

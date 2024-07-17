@@ -1,0 +1,10 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+
+.form-layout{
+    width: 500px;
+    border-radius: 10px;
+}

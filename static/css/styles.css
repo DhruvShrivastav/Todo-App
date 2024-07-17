@@ -1,0 +1,12 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+
+.form-layout{
+    width: 600px;
+    background-image: linear-gradient(90deg, #33b7e2, #5e62b0, #dc307c);
+    border: 2px solid white;
+    border-radius: 10px;
+}

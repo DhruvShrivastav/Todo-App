@@ -1,0 +1,108 @@
+{% load static %}
+
+<html>
+
+    <head>
+
+      <meta charset="utf-8" />
+
+      <meta name="viewport" content="width-device-width, initial-scale=1, maximum-scale=1"/>
+
+      <link href="https://bootswatch.com/5/quartz/bootstrap.min.css"  rel="stylesheet" type="text/css"/>
+
+      <link href="{% static 'css/styles.css' %}"  rel="stylesheet" type="text/css"/>
+
+      <title> Taskly </title>
+
+    </head>
+
+  
+
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+
+        <a class="navbar-brand main-heading text-info" style="font-size: 30px; font-weight: 900;"> 
+                
+          &nbsp; Taskly
+        
+        </a>
+    
+    
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+    
+        </button>
+    
+    
+          <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
+    
+            
+            <ul class="navbar-nav ms-auto">
+    
+    
+              &nbsp;     &nbsp;     &nbsp; 
+    
+    
+              <li class="nav-item">
+          
+                <a class="btn btn-outline-info" type="button" href="{% url 'register' %}">Register</a>
+    
+              </li>
+    
+    
+              &nbsp;     &nbsp;     &nbsp; 
+              
+    
+              <li class="nav-item">
+    
+                <a class="btn btn-outline-info" type="button" href="{% url 'my-login' %}">Login</a>
+    
+              </li>
+    
+    
+              &nbsp;     &nbsp;     &nbsp; 
+              
+    
+            </ul>
+          
+            
+          </div>
+    
+    
+    </nav> 
+
+    <br/>
+
+    <body>
+  
+        <br>
+        <br>
+  
+        <div class="text-center">
+  
+        <h1> Taskly.... A home for your tasks. </h1>
+  
+          <br>
+            
+        
+          <a class="btn btn-outline-primary" type="button" href="{% url 'register' %}">Register</a>
+  
+        
+        </div>
+  
+  
+      </body>
+
+
+    <br/>
+
+    <script src="{% static 'js/app.js' %}"></script>
+
+</html>
